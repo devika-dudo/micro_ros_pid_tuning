@@ -1,0 +1,17 @@
+signal_generator:
+  ros__parameters:
+    signal_type: "square"
+    target_angle: 6.0
+    step_time: 1.0
+    amplitude: 6.0
+    omega: 0.5
+    publish_rate: 50.0
+    min_angle: -360.0
+    max_angle: 360.0
+
+pid_param_publisher:
+  ros__parameters:
+    kp: 0.0
+    ki: 0.0
+    kd: 0.0
+    publish_rate: 1.0
